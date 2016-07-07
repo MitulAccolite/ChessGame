@@ -1,0 +1,57 @@
+GIT			(distributed repository)
+
+ - can be saved locally and then pushed onto server later.
+ - distributed version control was created by Linus Torvalds.
+
+central repository
+|				|
+|				|
+local repository		local reposirory
+|				|
+|(update)			|(update)
+local system			local system
+
+ 
+- GIT has a local repository and a central repository.
+
+=TERMINOLOGIES
+ - commit - making all changes locally. can be used to track previous versions. Linked list kind of structure to get
+           all list of commits.
+ - branches - has a master branch.(in case of SVN it is trunk).
+	     - duplicates all the code, to allow to make changes locally. Usually created for new feature request. 	
+
+ - tags - immutable branch.
+       - update, commit, etc cannot be performed.
+      - used for production releases.
+
+ - clone - take an instance of remote repository. 
+
+ - pull - pulling changes fromm repository.
+ - push - 
+
+ - HEAD - locally get last commit.
+ - URL - used for remote repository. Pass the name to obtain the repository.
+
+
+=COMMANDS
+ - git help - to get list of all commands.
+ - git help <command> - command usage.
+ - git init - create a local git repository.
+ - git add<file - add file to a staging area. 
+
+
+
+Central repository
+- always needs to be connected to the network in which the server is connected.
+
+
+central repository(subversion) - (log,revert,merge,blame,branch))
+|
+|
+|(commit) 
+|(update)
+|
+working ccopy
+
+
+
